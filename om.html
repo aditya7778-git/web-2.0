@@ -1,11 +1,281 @@
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
-<h1>my name is jaimin patel</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vespera | Handcrafted Luxury & Celestial Earrings</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explore Vespera's luxury handcrafted earrings collection. Elevate your style with celestial, minimalist, and baroque pearl gold jewelry pieces.">
+    <meta name="keywords" content="earrings, luxury jewelry, gold earrings, celestial jewelry, baroque pearl, minimalist hoops">
+    <!-- Premium Stylesheet -->
+    <link rel="stylesheet" href="om.css">
+</head>
+<body>
+    <!-- --- Header / Navigation --- -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="logo-link">VESPERA</a>
+            
+            <nav class="nav-links">
+                <a href="#hero" class="active">Home</a>
+                <a href="#collections">Collections</a>
+                <a href="#craftsmanship">Craftsmanship</a>
+                <a href="#story">Our Story</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="nav-icon-btn" id="cart-toggle-btn" aria-label="Shopping Cart">
+                    🛍️ <span class="cart-count">0</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Toggle Navigation">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- --- Hero Section --- -->
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-tagline">Celestial & Minimalist Artistry</span>
+                <h1>Elegance Carved in Gold</h1>
+                <p>Discover Vespera, where celestial wonder meets modern minimalist craftsmanship. Sculpted in recycled 18k gold and adorned with natural baroque pearls.</p>
+                <div class="hero-cta-group">
+                    <a href="#collections" class="btn btn-primary">Shop Collections</a>
+                    <a href="#story" class="btn btn-outline">Our Story</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-glow"></div>
+                <div class="hero-image-wrapper">
+                    <img src="assets/hero_earring.png" alt="Model wearing Vespera luxury gold earring" class="hero-image" width="400" height="500">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --- Collections Section --- -->
+    <section class="section" id="collections">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-subtitle">Curated Creations</span>
+                <h2 class="section-title">The Collections</h2>
+            </div>
+            <!-- Controls (Search & Filters) -->
+            <div class="shop-controls">
+                <div class="search-filter-row">
+                    <!-- Category Filters -->
+                    <div class="filter-categories">
+                        <button class="filter-btn active" data-filter="all">All Pieces</button>
+                        <button class="filter-btn" data-filter="Celestial">Celestial</button>
+                        <button class="filter-btn" data-filter="Minimalist">Minimalist</button>
+                        <button class="filter-btn" data-filter="Pearl">Baroque Pearl</button>
+                        <button class="filter-btn" data-filter="Classics">Classics</button>
+                    </div>
+                    <!-- Search Input -->
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="search-input" class="search-input" placeholder="Search the collection...">
+                    </div>
+                </div>
+            </div>
+            <!-- Product Grid -->
+            <div class="product-grid" id="product-grid">
+                <!-- Injected via JavaScript -->
+            </div>
+        </div>
+    </section>
+    <!-- --- Craftsmanship Section --- -->
+    <section class="section craftsmanship" id="craftsmanship">
+        <div class="container craftsmanship-grid">
+            <!-- Features Grid -->
+            <div class="craftsmanship-features">
+                <div class="craft-card">
+                    <div class="craft-icon">⚖️</div>
+                    <h3>Ethical Metals</h3>
+                    <p>Crafted exclusively in 100% recycled gold and sterling silver, minimizing environmental impact.</p>
+                </div>
+                <div class="craft-card">
+                    <div class="craft-icon">✨</div>
+                    <h3>Baroque Pearls</h3>
+                    <p>Each freshwater pearl is hand-selected for its organic contour, unique shine, and character.</p>
+                </div>
+                <div class="craft-card">
+                    <div class="craft-icon">🎨</div>
+                    <h3>Artisan Polished</h3>
+                    <p>Finished by hand by seasoned artisans, giving each pair a signature soft glowing finish.</p>
+                </div>
+                <div class="craft-card">
+                    <div class="craft-icon">📦</div>
+                    <h3>Conscious Delivery</h3>
+                    <p>Shipped worldwide in zero-plastic, completely biodegradable luxury packaging.</p>
+                </div>
+            </div>
+            <!-- Story Side -->
+            <div class="craftsmanship-story" id="story">
+                <span class="section-subtitle">Our Philosophy</span>
+                <h2>Sustained Elegance</h2>
+                <p>At Vespera, we believe that luxury should not compromise the Earth. Our design studio merges ancient celestial lore with modern geometric form, crafting timeless artifacts that can be worn for generations.</p>
+                <p>Every piece starts as a hand-drawn sketch in our coastal workshop, before being cast, assembled, and polished by hand. We celebrate natural variations, making every creation uniquely yours.</p>
+                <a href="#collections" class="btn btn-outline">Explore Our Craft</a>
+            </div>
+        </div>
+    </section>
+    <!-- --- Newsletter Section --- -->
+    <section class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-box">
+                <span class="section-subtitle">Vespera Circle</span>
+                <h3>Enjoy 10% Off Your First Order</h3>
+                <p>Join our newsletter community to receive exclusive previews of new season collections and sustainable design insights.</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email address" required aria-label="Email address">
+                    <button type="submit" class="btn btn-primary newsletter-btn">Join</button>
+                </form>
+                <div class="newsletter-success" id="newsletter-success">
+                    Thank you! Your welcome offer code has been sent to your email.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --- Footer --- -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h4 class="logo">VESPERA</h4>
+                    <p>Celestial luxury and modern minimalist earrings, handcrafted sustainably for the conscious soul.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Instagram">📸</a>
+                        <a href="#" class="social-icon" aria-label="Pinterest">📌</a>
+                        <a href="#" class="social-icon" aria-label="Facebook">👤</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Shop</h5>
+                    <ul>
+                        <li><a href="#collections">All Earrings</a></li>
+                        <li><a href="#collections">Celestial Series</a></li>
+                        <li><a href="#collections">Baroque Pearl</a></li>
+                        <li><a href="#collections">Minimalist Hoops</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Assistance</h5>
+                    <ul>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Jewelry Care Guide</a></li>
+                        <li><a href="#">Sizing Information</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>About Vespera</h5>
+                    <ul>
+                        <li><a href="#story">Our Workshop</a></li>
+                        <li><a href="#story">Sustainability Report</a></li>
+                        <li><a href="#">Artisan Partners</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vespera Jewels. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- --- Shopping Cart Drawer --- -->
+    <div class="cart-drawer-overlay" id="cart-drawer-overlay">
+        <div class="cart-drawer" id="cart-drawer">
+            <div class="cart-header">
+                <h3>Your Jewelry Chest</h3>
+                <button class="close-cart-btn" id="close-cart-btn" aria-label="Close Cart">✕</button>
+            </div>
+            <div class="cart-items-container" id="cart-items-container">
+                <!-- Injected via JavaScript -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-subtotal-row">
+                    <span>Subtotal:</span>
+                    <span class="cart-subtotal-price" id="cart-subtotal">$0.00</span>
+                </div>
+                <button class="btn btn-primary checkout-btn" id="checkout-btn">Secure Checkout</button>
+            </div>
+        </div>
+    </div>
+    <!-- --- Product Details Modal --- -->
+    <div class="modal-overlay" id="detail-modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal-btn" id="close-detail-modal" aria-label="Close details">✕</button>
+            <div class="modal-grid">
+                <div class="modal-image-box">
+                    <img src="" alt="" class="modal-img" id="modal-img">
+                </div>
+                <div class="modal-details">
+                    <span class="modal-category" id="modal-category">Celestial</span>
+                    <h3 class="modal-title" id="modal-title">Celestial Drop Earrings</h3>
+                    <span class="modal-price" id="modal-price">$180.00</span>
+                    <p class="modal-desc" id="modal-desc">Detailed descriptions of the product will go here.</p>
+                    
+                    <div class="modal-specs">
+                        <div class="spec-row">
+                            <span class="spec-label">Material:</span>
+                            <span class="spec-val" id="modal-spec-material">18k Gold Plate</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Stones:</span>
+                            <span class="spec-val" id="modal-spec-stone">Natural Pearl</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Dimensions:</span>
+                            <span class="spec-val" id="modal-spec-dims">35mm x 12mm</span>
+                        </div>
+                    </div>
+                    <div class="modal-action-row">
+                        <div class="modal-qty-selector">
+                            <button class="modal-qty-btn" id="modal-qty-minus">-</button>
+                            <span class="modal-qty-val" id="modal-qty-val">1</span>
+                            <button class="modal-qty-btn" id="modal-qty-plus">+</button>
+                        </div>
+                        <button class="btn btn-primary modal-add-btn" id="modal-add-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --- Checkout Success Modal --- -->
+    <div class="modal-overlay" id="success-modal-overlay">
+        <div class="success-modal-content">
+            <button class="close-modal-btn" id="close-success-modal" aria-label="Close notification">✕</button>
+            <div class="success-icon">✨</div>
+            <h3>Thank You For Your Order</h3>
+            <p>Your luxury collection order has been placed. We have sent a confirmation email containing your packaging tracker details. Your pieces will arrive in beautiful handcrafted boxes soon.</p>
+            <button class="btn btn-primary" id="success-ok-btn">Return to Workshop</button>
+        </div>
+    </div>
+    <!-- Interactive App Logic -->
+    <script src="app.js"></script>
+    <script>
+        // Simple mobile navigation menu toggle (if needed, expanding menu on mobile)
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        if (mobileMenuBtn && navLinks) {
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+                navLinks.style.flexDirection = 'column';
+                navLinks.style.position = 'absolute';
+                navLinks.style.top = '70px';
+                navLinks.style.left = '0';
+                navLinks.style.width = '100%';
+                navLinks.style.backgroundColor = 'rgba(11, 11, 12, 0.95)';
+                navLinks.style.padding = '2rem';
+                navLinks.style.borderBottom = '1px solid var(--border-color)';
+                navLinks.style.gap = '1.5rem';
+                navLinks.style.zIndex = '99';
+            });
+        }
+    </script>
+</body>
+</html>
